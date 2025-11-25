@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa9c3cdc-cdd5-409b-b479-3e358ed98949/console.sql" value="aa9c3cdc-cdd5-409b-b479-3e358ed98949" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa9c3cdc-cdd5-409b-b479-3e358ed98949/console_1.sql" value="aa9c3cdc-cdd5-409b-b479-3e358ed98949" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa9c3cdc-cdd5-409b-b479-3e358ed98949/console_2.sql" value="aa9c3cdc-cdd5-409b-b479-3e358ed98949" />
+  </component>
+</project>
