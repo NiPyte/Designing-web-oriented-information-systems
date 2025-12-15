@@ -1,0 +1,26 @@
+/* Card style */
+.post-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Title style */
+.post-title {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Date style */
+.post-date {
+    color: #7f8c8d;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}

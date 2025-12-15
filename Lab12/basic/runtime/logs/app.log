@@ -1,0 +1,716 @@
+2025-11-25 12:13:44 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "article/index". in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article/index', Array)
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 12:13:44 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'gvr3t9l0ufkm5iobm1n6f2rarv'
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+    '_csrf' => 'df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54645'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=article/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=article/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not;A=Brand\";v=\"99\", \"Opera GX\";v=\"123\", \"Chromium\";v=\"139\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => 'PHPSESSID=gvr3t9l0ufkm5iobm1n6f2rarv; _identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D; _csrf=df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1764072824.0563
+    'REQUEST_TIME' => 1764072824
+]
+2025-11-25 12:13:46 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "articleі/index". in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php:564
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article\xD1\x96/index', Array)
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2025-11-25 12:13:46 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][info][application] $_GET = [
+    'r' => 'articleі/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'gvr3t9l0ufkm5iobm1n6f2rarv'
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+    '_csrf' => 'df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54654'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=article%D1%96/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=article%D1%96/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not;A=Brand\";v=\"99\", \"Opera GX\";v=\"123\", \"Chromium\";v=\"139\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => 'PHPSESSID=gvr3t9l0ufkm5iobm1n6f2rarv; _identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D; _csrf=df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1764072826.5965
+    'REQUEST_TIME' => 1764072826
+]
+2025-11-25 12:15:11 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][error][Error] Error: Class "app\controllers\UploadedFile" not found in C:\D\My\University\Lab12\basic\controllers\ArticlesController.php:77
+Stack trace:
+#0 [internal function]: app\controllers\ArticlesController->actionCreate()
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#2 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#3 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('create', Array)
+#4 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('articles/create', Array)
+#5 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2025-11-25 12:15:11 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][info][application] $_GET = [
+    'r' => 'articles/create'
+]
+
+$_POST = [
+    '_csrf' => 'tI1IGqsVhkcmrZ_tXKdY93RH1OvCXlciGQ20_krDAp_S_nhc4W_xE3PH8Kcyw2qRWTCavJoGMBZ9NNe_PoF41Q=='
+    'Articles' => [
+        'title' => 'Some title'
+        'description' => 'Some description'
+        'content' => 'Some content'
+        'imageFile' => ''
+    ]
+]
+
+$_FILES = [
+    'Articles' => [
+        'name' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'full_path' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'type' => [
+            'imageFile' => 'image/png'
+        ]
+        'tmp_name' => [
+            'imageFile' => 'C:\\Users\\Everlasting System\\AppData\\Local\\Temp\\php6DC.tmp'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 86069
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gvr3t9l0ufkm5iobm1n6f2rarv'
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+    '_csrf' => 'df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54740'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=articles%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=articles%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '86925'
+    'HTTP_CONTENT_LENGTH' => '86925'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not;A=Brand\";v=\"99\", \"Opera GX\";v=\"123\", \"Chromium\";v=\"139\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarybiz4135XJbQtgcRA'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarybiz4135XJbQtgcRA'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=articles%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => 'PHPSESSID=gvr3t9l0ufkm5iobm1n6f2rarv; _identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D; _csrf=df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1764072911.2233
+    'REQUEST_TIME' => 1764072911
+]
+2025-11-25 12:17:01 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The fileinfo PHP extension is not installed. in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:167
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(387): yii\helpers\BaseFileHelper::getMimeType('C:\\Users\\Everla...', NULL, false)
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(280): yii\validators\FileValidator->validateExtension(Object(yii\web\UploadedFile))
+#2 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(226): yii\validators\FileValidator->validateValue(Object(yii\web\UploadedFile))
+#3 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\FileValidator->validateAttribute(Object(app\models\Articles), 'imageFile')
+#4 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Model.php(389): yii\validators\Validator->validateAttributes(Object(app\models\Articles), Array)
+#5 C:\D\My\University\Lab12\basic\models\Articles.php(45): yii\base\Model->validate()
+#6 C:\D\My\University\Lab12\basic\controllers\ArticlesController.php(82): app\models\Articles->upload()
+#7 [internal function]: app\controllers\ArticlesController->actionCreate()
+#8 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#9 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#10 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('create', Array)
+#11 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('articles/create', Array)
+#12 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2025-11-25 12:17:01 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][info][application] $_GET = [
+    'r' => 'articles/create'
+]
+
+$_POST = [
+    '_csrf' => 'tI1IGqsVhkcmrZ_tXKdY93RH1OvCXlciGQ20_krDAp_S_nhc4W_xE3PH8Kcyw2qRWTCavJoGMBZ9NNe_PoF41Q=='
+    'Articles' => [
+        'title' => 'Some title'
+        'description' => 'Some description'
+        'content' => 'Some content'
+        'imageFile' => ''
+    ]
+]
+
+$_FILES = [
+    'Articles' => [
+        'name' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'full_path' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'type' => [
+            'imageFile' => 'image/png'
+        ]
+        'tmp_name' => [
+            'imageFile' => 'C:\\Users\\Everlasting System\\AppData\\Local\\Temp\\phpB587.tmp'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 86069
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gvr3t9l0ufkm5iobm1n6f2rarv'
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+    '_csrf' => 'df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54781'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=articles%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=articles%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '86925'
+    'HTTP_CONTENT_LENGTH' => '86925'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not;A=Brand\";v=\"99\", \"Opera GX\";v=\"123\", \"Chromium\";v=\"139\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarybiz4135XJbQtgcRA'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarybiz4135XJbQtgcRA'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=articles%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => 'PHPSESSID=gvr3t9l0ufkm5iobm1n6f2rarv; _identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D; _csrf=df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1764073021.4736
+    'REQUEST_TIME' => 1764073021
+]
+2025-11-25 12:17:05 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The fileinfo PHP extension is not installed. in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:167
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(387): yii\helpers\BaseFileHelper::getMimeType('C:\\Users\\Everla...', NULL, false)
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(280): yii\validators\FileValidator->validateExtension(Object(yii\web\UploadedFile))
+#2 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\FileValidator.php(226): yii\validators\FileValidator->validateValue(Object(yii\web\UploadedFile))
+#3 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\FileValidator->validateAttribute(Object(app\models\Articles), 'imageFile')
+#4 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Model.php(389): yii\validators\Validator->validateAttributes(Object(app\models\Articles), Array)
+#5 C:\D\My\University\Lab12\basic\models\Articles.php(45): yii\base\Model->validate()
+#6 C:\D\My\University\Lab12\basic\controllers\ArticlesController.php(82): app\models\Articles->upload()
+#7 [internal function]: app\controllers\ArticlesController->actionCreate()
+#8 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\InlineAction.php(60): call_user_func_array(Array, Array)
+#9 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Controller.php(184): yii\base\InlineAction->runWithParams(Array)
+#10 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(555): yii\base\Controller->runAction('create', Array)
+#11 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('articles/create', Array)
+#12 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2025-11-25 12:17:05 [::1][1][gvr3t9l0ufkm5iobm1n6f2rarv][info][application] $_GET = [
+    'r' => 'articles/create'
+]
+
+$_POST = [
+    '_csrf' => 'SNDNLKLsCTrR1sHN-9ADEnmgGxd_dQv9qAUmQlVWRPAuo_1q6JZ-boS8roeVtDF0VNdVQCctbMnMPEUDIRQ-ug=='
+    'Articles' => [
+        'title' => 'Some title'
+        'description' => 'Some description'
+        'content' => 'Some content'
+        'imageFile' => ''
+    ]
+]
+
+$_FILES = [
+    'Articles' => [
+        'name' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'full_path' => [
+            'imageFile' => 'image_2025-11-25_141458191.png'
+        ]
+        'type' => [
+            'imageFile' => 'image/png'
+        ]
+        'tmp_name' => [
+            'imageFile' => 'C:\\Users\\Everlasting System\\AppData\\Local\\Temp\\phpC586.tmp'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 86069
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'gvr3t9l0ufkm5iobm1n6f2rarv'
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+    '_csrf' => 'df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    '__authKey' => 'ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54795'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=articles%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=articles%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '86925'
+    'HTTP_CONTENT_LENGTH' => '86925'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not;A=Brand\";v=\"99\", \"Opera GX\";v=\"123\", \"Chromium\";v=\"139\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryT9urLpedHdGXTyDr'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryT9urLpedHdGXTyDr'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=articles%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => 'PHPSESSID=gvr3t9l0ufkm5iobm1n6f2rarv; _identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D; _csrf=df8f03e7d67fb775ac2b84ce56774765e017e0366ce1f99b0b906a24ad1d02f5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fs0FJzwTUjoJnd2f-wNWXXg4d9cAtBzJ%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1764073025.5694
+    'REQUEST_TIME' => 1764073025
+]
+2025-12-15 07:26:44 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), NULL)
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('user')
+#10 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('user', 'schema', false)
+#11 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(445): yii\db\Schema->getTableSchema('user')
+#12 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#13 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(185): yii\db\ActiveRecord::primaryKey()
+#14 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(1)
+#15 C:\D\My\University\Lab12\basic\models\User.php(21): yii\db\BaseActiveRecord::findOne(1)
+#16 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(631): app\models\User::findIdentity(1)
+#17 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(339): yii\web\User->getIdentityAndDurationFromCookie()
+#18 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(758): yii\web\User->loginByCookie()
+#19 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(207): yii\web\User->renewAuthStatus()
+#20 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(385): yii\web\User->getIdentity()
+#21 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#22 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(84): yii\base\Component->__get('isGuest')
+#23 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\panels\UserPanel->init()
+#24 [internal function]: yii\base\BaseObject->__construct(Array)
+#25 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(425): ReflectionClass->newInstanceArgs(Array)
+#26 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#27 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#28 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(265): yii\BaseYii::createObject(Array)
+#29 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(237): yii\debug\Module->initPanels()
+#30 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\Module->init()
+#31 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(164): yii\base\BaseObject->__construct(Array)
+#32 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#33 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->newInstanceArgs(Array)
+#34 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#35 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#36 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(448): yii\BaseYii::createObject(Array, Array)
+#37 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(316): yii\base\Module->getModule('debug')
+#38 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#39 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(274): yii\web\Application->bootstrap()
+#40 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\base\Application->init()
+#41 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(207): yii\base\BaseObject->__construct(Array)
+#42 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#43 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('user')
+#8 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('user', 'schema', false)
+#9 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(445): yii\db\Schema->getTableSchema('user')
+#10 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#11 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(185): yii\db\ActiveRecord::primaryKey()
+#12 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(1)
+#13 C:\D\My\University\Lab12\basic\models\User.php(21): yii\db\BaseActiveRecord::findOne(1)
+#14 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(631): app\models\User::findIdentity(1)
+#15 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(339): yii\web\User->getIdentityAndDurationFromCookie()
+#16 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(758): yii\web\User->loginByCookie()
+#17 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(207): yii\web\User->renewAuthStatus()
+#18 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\User.php(385): yii\web\User->getIdentity()
+#19 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#20 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(84): yii\base\Component->__get('isGuest')
+#21 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\panels\UserPanel->init()
+#22 [internal function]: yii\base\BaseObject->__construct(Array)
+#23 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(425): ReflectionClass->newInstanceArgs(Array)
+#24 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#25 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#26 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(265): yii\BaseYii::createObject(Array)
+#27 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(237): yii\debug\Module->initPanels()
+#28 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\Module->init()
+#29 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(164): yii\base\BaseObject->__construct(Array)
+#30 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#31 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->newInstanceArgs(Array)
+#32 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#33 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#34 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(448): yii\BaseYii::createObject(Array, Array)
+#35 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(316): yii\base\Module->getModule('debug')
+#36 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#37 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(274): yii\web\Application->bootstrap()
+#38 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\base\Application->init()
+#39 C:\D\My\University\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(207): yii\base\BaseObject->__construct(Array)
+#40 C:\D\My\University\Lab12\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#41 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2025-12-15 07:26:39 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '53872'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Opera GX\";v=\"124\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 OPR/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => '_identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1765783599.8429
+    'REQUEST_TIME' => 1765783599
+]
+2025-12-15 10:50:09 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), NULL)
+#1 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#5 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#6 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#8 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('user')
+#10 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('user', 'schema', false)
+#11 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(445): yii\db\Schema->getTableSchema('user')
+#12 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#13 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(185): yii\db\ActiveRecord::primaryKey()
+#14 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(1)
+#15 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\models\User.php(21): yii\db\BaseActiveRecord::findOne(1)
+#16 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(631): app\models\User::findIdentity(1)
+#17 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(339): yii\web\User->getIdentityAndDurationFromCookie()
+#18 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(758): yii\web\User->loginByCookie()
+#19 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(207): yii\web\User->renewAuthStatus()
+#20 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(385): yii\web\User->getIdentity()
+#21 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#22 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(84): yii\base\Component->__get('isGuest')
+#23 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\panels\UserPanel->init()
+#24 [internal function]: yii\base\BaseObject->__construct(Array)
+#25 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(425): ReflectionClass->newInstanceArgs(Array)
+#26 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#27 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#28 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(265): yii\BaseYii::createObject(Array)
+#29 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(237): yii\debug\Module->initPanels()
+#30 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\Module->init()
+#31 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(164): yii\base\BaseObject->__construct(Array)
+#32 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#33 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->newInstanceArgs(Array)
+#34 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#35 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#36 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(448): yii\BaseYii::createObject(Array, Array)
+#37 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(316): yii\base\Module->getModule('debug')
+#38 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#39 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(274): yii\web\Application->bootstrap()
+#40 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\base\Application->init()
+#41 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(207): yii\base\BaseObject->__construct(Array)
+#42 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#43 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo(true)
+#3 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(1181): yii\db\Command->prepare(true)
+#4 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Command.php(417): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(366): yii\db\Command->queryAll()
+#6 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(134): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('user')
+#8 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('user', 'schema', false)
+#9 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(445): yii\db\Schema->getTableSchema('user')
+#10 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(469): yii\db\ActiveRecord::getTableSchema()
+#11 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(185): yii\db\ActiveRecord::primaryKey()
+#12 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(110): yii\db\ActiveRecord::findByCondition(1)
+#13 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\models\User.php(21): yii\db\BaseActiveRecord::findOne(1)
+#14 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(631): app\models\User::findIdentity(1)
+#15 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(339): yii\web\User->getIdentityAndDurationFromCookie()
+#16 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(758): yii\web\User->loginByCookie()
+#17 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(207): yii\web\User->renewAuthStatus()
+#18 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\User.php(385): yii\web\User->getIdentity()
+#19 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Component.php(139): yii\web\User->getIsGuest()
+#20 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\panels\UserPanel.php(84): yii\base\Component->__get('isGuest')
+#21 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\panels\UserPanel->init()
+#22 [internal function]: yii\base\BaseObject->__construct(Array)
+#23 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(425): ReflectionClass->newInstanceArgs(Array)
+#24 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\panel...', Array, Array)
+#25 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\panel...', Array, Array)
+#26 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(265): yii\BaseYii::createObject(Array)
+#27 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2-debug\src\Module.php(237): yii\debug\Module->initPanels()
+#28 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\debug\Module->init()
+#29 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(164): yii\base\BaseObject->__construct(Array)
+#30 [internal function]: yii\base\Module->__construct('debug', Object(yii\web\Application), Array)
+#31 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->newInstanceArgs(Array)
+#32 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\di\Container.php(176): yii\di\Container->build('yii\\debug\\Modul...', Array, Array)
+#33 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\BaseYii.php(374): yii\di\Container->get('yii\\debug\\Modul...', Array, Array)
+#34 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Module.php(448): yii\BaseYii::createObject(Array, Array)
+#35 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(316): yii\base\Module->getModule('debug')
+#36 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\web\Application.php(69): yii\base\Application->bootstrap()
+#37 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(274): yii\web\Application->bootstrap()
+#38 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\BaseObject.php(112): yii\base\Application->init()
+#39 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\vendor\yiisoft\yii2\base\Application.php(207): yii\base\BaseObject->__construct(Array)
+#40 C:\D\My\University\Designing_web_oriented_information_systems\Lab12\basic\web\index.php(12): yii\base\Application->__construct(Array)
+#41 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No connection could be made because the target machine actively refused it
+)
+
+2025-12-15 10:50:05 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\D\\My\\University\\Designing_web_oriented_information_systems\\Lab12\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58584'
+    'SERVER_SOFTWARE' => 'PHP 8.2.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\D\\My\\University\\Designing_web_oriented_information_systems\\Lab12\\basic\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"140\", \"Not=A?Brand\";v=\"24\", \"Opera GX\";v=\"124\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 OPR/124.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7,de;q=0.6,ko;q=0.5,ja;q=0.4,pl;q=0.3,zh-CN;q=0.2,zh;q=0.1'
+    'HTTP_COOKIE' => '_identity=ba2100eaf22cb1f594af06f7d09941ff2a1d2ac5489b6127be6f3feec34800eca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ORJJzPu7hf3eYG7utS2voPqtqd4TGt_D%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1765795805.566
+    'REQUEST_TIME' => 1765795805
+]
